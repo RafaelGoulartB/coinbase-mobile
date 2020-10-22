@@ -31,6 +31,12 @@
   </sub>
 </div>
 
+<div>
+  <img src="./.github/assets/screenshot-1.png" width="220">
+  <img src="./.github/assets/screenshot-2.png" width="220">
+  <img src="./.github/assets/screenshot-3.png" width="220">
+</div>
+
 # :pushpin: Table of Contents
 
 - [Technologies](#computer-technologies)
