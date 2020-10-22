@@ -38,6 +38,13 @@
   <img src="./.github/assets/screenshot-3.png" width="220">
 </div>
 
+<br />
+<div align="center">
+  <img src="./.github/assets/screenshot-4.png" width="220">
+  <img src="./.github/assets/screenshot-5.png" width="220">
+  <img src="./.github/assets/screenshot-6.png" width="220">
+</div>
+
 # :pushpin: Table of Contents
 
 - [Technologies](#computer-technologies)
