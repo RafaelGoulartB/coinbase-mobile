@@ -54,6 +54,13 @@
 - [Contributing](#tada-contributing)
 - [License](#closed_book-license)
 
+<h2 align="left"> 📥 Layout available at figma community: </h2>
+<p align="center">
+    <a title="Acess Figma Community" href="https://www.figma.com/community/file/804922692506903468/CoinBase-Web-%26-Mobile-App-Design">
+        <img alt="Figma Community" src="https://img.shields.io/badge/Figma Community-black?style=flat-square&logo=figma&logoColor=red" width="200px" />
+    </a>
+</p>
+
 # :computer: Technologies
 This project was made using the follow technologies:
 
@@ -61,13 +68,6 @@ This project was made using the follow technologies:
 * [Expo](http://expo.io/)     
 * [Styled Compoments](https://styled-components.com/)     
 * [Eslint](https://eslint.org/)     
-
-<h2 align="left"> 📥 Layout available at figma community: </h2>
-<p align="center">
-    <a title="Acess Figma Community" href="https://www.figma.com/community/file/804922692506903468/CoinBase-Web-%26-Mobile-App-Design">
-        <img alt="Figma Community" src="https://img.shields.io/badge/Figma Community-black?style=flat-square&logo=figma&logoColor=red" width="200px" />
-    </a>
-</p>
 
 # :rocket: Features
 
