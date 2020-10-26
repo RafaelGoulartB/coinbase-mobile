@@ -75,7 +75,7 @@ This project was made using the follow technologies:
 - Exchange Bitcoin for Giftcard
 
 # :construction_worker: How to run
-To run the project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
+To run this project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
 <br />
 After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
 
