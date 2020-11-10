@@ -11,6 +11,7 @@ import {
 } from './styles'
 
 interface SlideProps {
+  navigation: any
   imageSrc: any
   title: string
   description: string
@@ -18,6 +19,7 @@ interface SlideProps {
 }
 
 const Slide: React.FC<SlideProps> = ({
+  navigation,
   imageSrc,
   title,
   description,
@@ -27,7 +29,9 @@ const Slide: React.FC<SlideProps> = ({
     <SliderContainer>
       {!buttonLabel && (
         <SkipBox>
-          <SkipButtonText>Skip{'>>'}</SkipButtonText>
+          <SkipButtonText onPress={() => navigation.navigate('Register')}>
+            Skip{'>>'}
+          </SkipButtonText>
         </SkipBox>
       )}
 
@@ -36,7 +40,7 @@ const Slide: React.FC<SlideProps> = ({
       <Description>{description}</Description>
 
       {buttonLabel && (
-        <SliderButton onPress={() => {}}>
+        <SliderButton onPress={() => navigation.navigate('Register')}>
           <SliderButtonText>{buttonLabel}</SliderButtonText>
         </SliderButton>
       )}
