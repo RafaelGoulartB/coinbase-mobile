@@ -12,6 +12,20 @@ export const SliderContainer = styled.View`
   padding-right: 48px;
   padding-left: 48px;
 `
+export const SkipBox = styled.View`
+  align-items: flex-end;
+  align-self: center;
+  width: ${width}px;
+  margin-bottom: 84px;
+`
+export const SkipButton = styled.TouchableOpacity`
+  text-align: center;
+  padding-right: 32px;
+`
+export const SkipButtonText = styled.Text`
+  font-weight: bold;
+  color: #979797;
+`
 export const Title = styled.Text`
   font-size: 24px;
   font-weight: bold;

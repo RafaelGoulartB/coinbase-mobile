@@ -2,6 +2,9 @@ import React from 'react'
 import { Image } from 'react-native'
 import {
   SliderContainer,
+  SkipBox,
+  SkipButton,
+  SkipButtonText,
   Title,
   Description,
   SliderButton,
@@ -23,6 +26,14 @@ const Slide: React.FC<SlideProps> = ({
 }: SlideProps) => {
   return (
     <SliderContainer>
+      {!buttonLabel && (
+        <SkipBox>
+          <SkipButton>
+            <SkipButtonText>Skip{'>>'}</SkipButtonText>
+          </SkipButton>
+        </SkipBox>
+      )}
+
       <Image source={imageSrc} />
       <Title>{title}</Title>
       <Description>{description}</Description>
