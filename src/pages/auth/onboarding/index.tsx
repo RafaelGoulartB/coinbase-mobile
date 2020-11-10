@@ -3,9 +3,9 @@ import { Dimensions } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
 import Slide from './slide'
 
-import SlideImg1 from '../../assets/onboarding/onboarding-1.png'
-import SlideImg2 from '../../assets/onboarding/onboarding-2.png'
-import SlideImg3 from '../../assets/onboarding/onboarding-3.png'
+import SlideImg1 from '../../../assets/onboarding/onboarding-1.png'
+import SlideImg2 from '../../../assets/onboarding/onboarding-2.png'
+import SlideImg3 from '../../../assets/onboarding/onboarding-3.png'
 
 const { width } = Dimensions.get('window')
 
