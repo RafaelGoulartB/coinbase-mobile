@@ -19,18 +19,21 @@ const Onboarding: React.FC = ({ navigation }: any) => {
       bounces={false}
     >
       <Slide
+        id={0}
         navigation={navigation}
         imageSrc={SlideImg1}
         title="Exchange Bitcoin & Ethereum For Money"
         description="Provide us with the necessary required information and let us do the convertion asap!!!"
       />
       <Slide
+        id={1}
         navigation={navigation}
         imageSrc={SlideImg2}
         title="Got Giftcards you want to redeem for cash?"
         description="Unlimited type cards on our platform ranging from amazon, iTunes, Google Play Store and e.t.c"
       />
       <Slide
+        id={2}
         navigation={navigation}
         imageSrc={SlideImg3}
         title="You’re One Step Closer to Cashing Out Your Exchange"

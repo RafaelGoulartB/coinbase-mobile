@@ -45,9 +45,30 @@ export const SliderButton = styled.TouchableOpacity`
   border-radius: 5px;
   background: ${props => props.theme.colors.purple};
   text-align: center;
+  margin-bottom: 36px;
 `
 export const SliderButtonText = styled.Text`
   font-weight: bold;
   text-transform: uppercase;
   color: white;
+`
+export const SliderIndicatorBox = styled.View`
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  width: ${width}px;
+`
+export const SliderIndicatorInactive = styled.View`
+  background: ${props => props.theme.colors.purple};
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+`
+export const SliderIndicatorActive = styled(SliderIndicatorInactive)`
+  background: white;
+  border-color: ${props => props.theme.colors.purple};
+  border-width: 2px;
 `
