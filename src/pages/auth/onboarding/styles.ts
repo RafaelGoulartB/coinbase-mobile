@@ -28,10 +28,14 @@ export const Description = styled.Text`
   text-align: center;
   margin-bottom: 36px;
 `
-export const SliderButton = styled.Button`
-  padding: 10px;
-  background: ${props => props.theme.colors.pink};
+export const SliderButton = styled.TouchableOpacity`
+  padding: 16px 52px;
   border-radius: 5px;
-  color: white;
+  background: ${props => props.theme.colors.purple};
   text-align: center;
+`
+export const SliderButtonText = styled.Text`
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
 `

@@ -1,6 +1,12 @@
 import React from 'react'
 import { Image } from 'react-native'
-import { SliderContainer, Title, Description, SliderButton } from './styles'
+import {
+  SliderContainer,
+  Title,
+  Description,
+  SliderButton,
+  SliderButtonText
+} from './styles'
 
 interface SlideProps {
   imageSrc: any
@@ -22,11 +28,9 @@ const Slide: React.FC<SlideProps> = ({
       <Description>{description}</Description>
 
       {buttonLabel && (
-        <SliderButton
-          title={buttonLabel}
-          onPress={() => {}}
-          accessibilityLabel="Continue to registration pages"
-        />
+        <SliderButton onPress={() => {}}>
+          <SliderButtonText>{buttonLabel}</SliderButtonText>
+        </SliderButton>
       )}
     </SliderContainer>
   )
