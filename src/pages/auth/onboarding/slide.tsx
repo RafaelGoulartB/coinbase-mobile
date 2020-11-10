@@ -3,7 +3,6 @@ import { Image } from 'react-native'
 import {
   SliderContainer,
   SkipBox,
-  SkipButton,
   SkipButtonText,
   Title,
   Description,
@@ -28,9 +27,7 @@ const Slide: React.FC<SlideProps> = ({
     <SliderContainer>
       {!buttonLabel && (
         <SkipBox>
-          <SkipButton>
-            <SkipButtonText>Skip{'>>'}</SkipButtonText>
-          </SkipButton>
+          <SkipButtonText>Skip{'>>'}</SkipButtonText>
         </SkipBox>
       )}
 

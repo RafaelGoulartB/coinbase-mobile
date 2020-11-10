@@ -18,11 +18,9 @@ export const SkipBox = styled.View`
   width: ${width}px;
   margin-bottom: 84px;
 `
-export const SkipButton = styled.TouchableOpacity`
+export const SkipButtonText = styled.Text`
   text-align: center;
   padding-right: 32px;
-`
-export const SkipButtonText = styled.Text`
   font-weight: bold;
   color: #979797;
 `
