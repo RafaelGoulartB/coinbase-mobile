@@ -14,9 +14,10 @@ const Onboarding: React.FC = ({ navigation }: any) => {
     <ScrollView
       horizontal
       snapToInterval={width}
-      decelerationRate="fast"
+      decelerationRate="normal"
       showsHorizontalScrollIndicator={false}
-      bounces={false}
+      disableIntervalMomentum={true}
+      bounces={true}
     >
       <Slide
         id={0}
