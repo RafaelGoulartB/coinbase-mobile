@@ -13,15 +13,12 @@ export const SliderContainer = styled.View`
   padding-left: 48px;
 `
 export const SkipBox = styled.View`
-  position: relative;
   align-items: flex-end;
   align-self: center;
   width: ${width}px;
   margin-bottom: 84px;
 `
 export const SkipButtonText = styled.Text`
-  position: absolute;
-  top: -60px;
   text-align: center;
   padding-right: 32px;
   font-weight: bold;
