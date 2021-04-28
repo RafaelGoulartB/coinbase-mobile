@@ -62,7 +62,7 @@
 </p>
 
 # :computer: Technologies
-This project was made using the follow technologies:
+This project was made using the following technologies:
 
 * [React Native](https://reactnative.dev/)    
 * [Expo](http://expo.io/)     
